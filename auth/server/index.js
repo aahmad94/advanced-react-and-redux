@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 
 // DB Setup
-mongoose.connect('mongodb://localhost:auth/auth');
+mongoose.connect('mongodb://localhost/auth');
  
 // App Setup
 // Morgan is a middleware logging framework for incoming requests
